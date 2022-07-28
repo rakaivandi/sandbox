@@ -70,8 +70,8 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="{{ asset('css/sigin.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/sigin.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
     <!-- SWIPER CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 

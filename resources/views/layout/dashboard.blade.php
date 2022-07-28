@@ -12,13 +12,13 @@
     <title>Dashboard</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/dashboard.css') }}" rel="stylesheet">
 
 </head>
 
@@ -34,7 +34,7 @@
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('home') }}">
                 <div class="sidebar-brand-icon rotate-n-15">
                 </div>
-                <img class="img-profile rounded-circle" src="{{ asset('img/proto.png') }}"
+                <img class="img-profile rounded-circle" src="{{ secure_asset('img/proto.png') }}"
                 width="50px">
                 <div class="sidebar-brand-text mx-3">SandBox Admin</div>
             </a>
@@ -159,7 +159,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Pann</span>
-                                <img class="img-profile rounded-circle" src="{{ asset('img/wbyruck.jpg') }}">
+                                <img class="img-profile rounded-circle" src="{{ secure_asset('img/wbyruck.jpg') }}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -249,21 +249,21 @@
             </div>
 
             <!-- Bootstrap core JavaScript-->
-            <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-            <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+            <script src="{{ secure_asset('vendor/jquery/jquery.min.js') }}"></script>
+            <script src="{{ secure_asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
             <!-- Core plugin JavaScript-->
-            <script src="{{ asset('vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+            <script src="{{ secure_asset('vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
             <!-- Custom scripts for all pages-->
-            <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
+            <script src="{{ secure_asset('js/sb-admin-2.min.js') }}"></script>
 
             <!-- Page level plugins -->
-            <script src="{{ asset('vendor/chart.js/Chart.min.js') }}"></script>
+            <script src="{{ secure_asset('vendor/chart.js/Chart.min.js') }}"></script>
 
             <!-- Page level custom scripts -->
-            <script src="{{ asset('js/demo/chart-area-demo.js') }}"></script>
-            <script src="{{ asset('js/demo/chart-pie-demo.js') }}"></script>
+            <script src="{{ secure_asset('js/demo/chart-area-demo.js') }}"></script>
+            <script src="{{ secure_asset('js/demo/chart-pie-demo.js') }}"></script>
 
 </body>
 
